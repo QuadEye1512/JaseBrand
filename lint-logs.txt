@@ -1,0 +1,20 @@
+
+> jase-brand-awareness@0.1.0 lint
+> eslint
+
+
+D:\ApexQuants\JB\jase-brand-awareness\src\components\layout\footer.tsx
+  17:29   error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  17:110  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+D:\ApexQuants\JB\jase-brand-awareness\src\components\sections\educational-resources.tsx
+  54:60  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  54:85  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+D:\ApexQuants\JB\jase-brand-awareness\src\components\sections\reports-list.tsx
+  3:41  warning  'CardTitle' is defined but never used    @typescript-eslint/no-unused-vars
+  4:10  warning  'Badge' is defined but never used        @typescript-eslint/no-unused-vars
+  5:10  warning  'AlertCircle' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 7 problems (4 errors, 3 warnings)
+
