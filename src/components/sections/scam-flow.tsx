@@ -1,35 +1,35 @@
 "use client";
 
 import { Container } from "@/components/ui/container";
-import { Search, UserPlus, HandCoins, MessageSquareOff, ArrowRight, ShieldAlert } from "lucide-react";
+import { MessageCircle, DollarSign, Ban, LockKeyhole, ArrowRight, ShieldAlert } from "lucide-react";
 
 const steps = [
     {
         phase: "PHASE 01",
-        title: "RECONNAISSANCE",
-        icon: Search,
-        description: "Subject identifies high-net-worth targets via LinkedIn/Instagram. Looks for 'Investor' or 'Crypto' keywords.",
+        title: "INITIAL CONTACT",
+        icon: MessageCircle,
+        description: "People are approached via unsolicited messages on social platforms — Instagram, WhatsApp, and Telegram. The outreach appears personal but is part of a mass-targeting strategy.",
         status: "ACTIVE"
     },
     {
         phase: "PHASE 02",
-        title: "INFILTRATION",
-        icon: UserPlus,
-        description: "Establishes contact through 'mutuals'. Poses as a private Angel Investor or Venture Capitalist.",
+        title: "THE PROMISE",
+        icon: DollarSign,
+        description: "Offers of high-return investment opportunities or exclusive venture deals. Fabricated screenshots of 'profits' are presented to build false credibility.",
         status: "ACTIVE"
     },
     {
         phase: "PHASE 03",
-        title: "THE 'BUY-IN'",
-        icon: HandCoins,
-        description: "Requests upfront 'liquidity proof', 'legal retainer', or 'tax clearance' fee to release larger funds.",
+        title: "THE TRAP",
+        icon: LockKeyhole,
+        description: "Requests for upfront fees labeled as 'liquidity proof,' 'tax clearance,' or 'legal retainers.' Each payment is followed by another demand before any 'withdrawal' can occur.",
         status: "CRITICAL"
     },
     {
         phase: "PHASE 04",
-        title: "GHOST PROTOCOL",
-        icon: MessageSquareOff,
-        description: "Upon receipt of funds, subject ceases all communication. Accounts may be deactivated temporarily.",
+        title: "AFTER PAYMENT",
+        icon: Ban,
+        description: "Communication ceases and victims are often blocked. Accounts may be deactivated or deleted. The money is gone — the scammer has moved on to the next target.",
         status: "FINAL"
     }
 ];
@@ -50,7 +50,7 @@ export function ScamFlow() {
                         OPERATIONAL <span className="text-red-600">BLUEPRINT</span>
                     </h2>
                     <p className="text-lg text-slate-400 font-mono">
-                        Sequence of events identified in <span className="text-white font-bold">100%</span> of reported cases.
+                        This pattern matches <span className="text-white font-bold">common tactics</span> used by online investment frauds — emphasizing the importance of caution before sending money or sharing personal details.
                     </p>
                 </div>
 

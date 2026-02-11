@@ -10,24 +10,24 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "SCAM ALERT: Jase Brand (Jason Perez) | Investment Fraud Warning",
-    template: "%s | Jase Brand Scam Alert",
+    default: "Jase Brand Scam Alert: What You Need to Know (2026 Update)",
+    template: "%s | Jase Brand Scam Alert 2026",
   },
-  description: "URGENT WARNING: Do not invest with Jase Brand or Jason Perez. Read verified reports of scam activity, stolen funds, and investment fraud.",
-  keywords: ["Jase Brand scam", "Jason Perez fraud", "stolen money", "investment scam", "Jase Brand cheat", "Jason Perez thief", "scammer alert", "financial fraud"],
-  authors: [{ name: "Consumer Protection Group" }],
+  description: "⚠️ Jase Brand Scam Alert (2026 Update): Community-driven alert platform highlighting active fraud warnings, reported losses of $500,000+, and consumer protection guidance. Not a promotional site.",
+  keywords: ["Jase Brand scam", "Jase Brand scam alert", "Jason Perez fraud", "Jase Brand 2026", "investment scam warning", "Jase Brand fraud investigation", "online investment fraud", "scammer alert", "financial fraud", "Jase Brand review", "is Jase Brand legit"],
+  authors: [{ name: "Community Alert Platform" }],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://jasebrand-awareness.com/",
-    title: "SCAM ALERT: Jase Brand (Jason Perez) | Investment Fraud",
-    description: "WARNING: Multiple reports of stolen funds. Read the evidence before you invest.",
+    title: "Jase Brand Scam Alert: What You Need to Know (2026 Update)",
+    description: "Community-driven alert platform: Active fraud investigation involving reported losses of $500,000+ tied to Jase Brand (aka Jason Perez). Do not transfer funds.",
     siteName: "Jase Brand Scam Alert",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SCAM ALERT: Jase Brand / Jason Perez",
-    description: "Urgent investment fraud warning. See the reports.",
+    title: "Jase Brand Scam Alert (2026 Update)",
+    description: "Community-driven fraud alert: $500K+ in reported losses. Protect yourself.",
   },
 };
 

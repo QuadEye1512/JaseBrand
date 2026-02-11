@@ -11,14 +11,16 @@ export function Header() {
             {/* Top "Ticker" Bar - High Urgency */}
             <div className="bg-red-600 text-white text-[10px] md:text-xs font-black uppercase tracking-widest py-1 overflow-hidden">
                 <div className="flex w-full whitespace-nowrap animate-marquee">
-                    <span className="mx-4">⚠️ ACTIVE FRAUD INVESTIGATION ⚠️</span>
+                    <span className="mx-4">⚠️ JASE BRAND SCAM ALERT — 2026 UPDATE ⚠️</span>
+                    <span className="mx-4">ACTIVE FRAUD INVESTIGATION</span>
+                    <span className="mx-4">⚠️ REPORTED LOSSES: $500,000+ ⚠️</span>
                     <span className="mx-4">DO NOT TRANSFER FUNDS</span>
-                    <span className="mx-4">⚠️ REPORTED LOSSES: $500k+ ⚠️</span>
-                    <span className="mx-4">DO NOT TRUST "JASE BRAND"</span>
-                    <span className="mx-4">⚠️ ACTIVE FRAUD INVESTIGATION ⚠️</span>
+                    <span className="mx-4">COMMUNITY-DRIVEN ALERT PLATFORM</span>
+                    <span className="mx-4">⚠️ JASE BRAND SCAM ALERT — 2026 UPDATE ⚠️</span>
+                    <span className="mx-4">ACTIVE FRAUD INVESTIGATION</span>
+                    <span className="mx-4">⚠️ REPORTED LOSSES: $500,000+ ⚠️</span>
                     <span className="mx-4">DO NOT TRANSFER FUNDS</span>
-                    <span className="mx-4">⚠️ REPORTED LOSSES: $500k+ ⚠️</span>
-                    <span className="mx-4">DO NOT TRUST "JASE BRAND"</span>
+                    <span className="mx-4">COMMUNITY-DRIVEN ALERT PLATFORM</span>
                 </div>
             </div>
 

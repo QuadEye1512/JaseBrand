@@ -2,9 +2,9 @@ export function JsonLd() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Jase Brand Awareness",
+        "name": "Jase Brand Scam Alert: What You Need to Know (2026 Update)",
         "url": "https://jasebrand-awareness.com",
-        "description": "Public awareness notice regarding alleged investment scams linked to Jase Brand (Jason Perez).",
+        "description": "Community-driven alert platform highlighting active fraud warnings, reported losses of $500,000+, and consumer protection guidance related to Jase Brand (aka Jason Perez). Not a promotional site.",
         "potentialAction": {
             "@type": "SearchAction",
             "target": "https://jasebrand-awareness.com/reports?q={search_term_string}",
@@ -12,7 +12,7 @@ export function JsonLd() {
         },
         "publisher": {
             "@type": "Organization",
-            "name": "Consumer Awareness Group",
+            "name": "Community Alert Platform",
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://jasebrand-awareness.com/icon.png"

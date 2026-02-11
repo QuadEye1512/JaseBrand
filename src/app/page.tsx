@@ -2,6 +2,7 @@ import { HeroSection } from "@/components/sections/hero-section";
 import { ReportPatterns } from "@/components/sections/report-patterns";
 import { TargetProfile } from "@/components/sections/target-profile";
 import { ScamFlow } from "@/components/sections/scam-flow";
+import { WhySearch } from "@/components/sections/why-search";
 import { CtaSection } from "@/components/sections/cta-section";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <ReportPatterns />
       <TargetProfile />
       <ScamFlow />
+      <WhySearch />
       <CtaSection />
     </main>
   );

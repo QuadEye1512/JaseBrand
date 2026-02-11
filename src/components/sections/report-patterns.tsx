@@ -10,31 +10,31 @@ import { MessageCircle, DollarSign, Ban, LockKeyhole } from "lucide-react";
 const steps = [
     {
         icon: MessageCircle,
-        title: "1. The Hook",
-        subtitle: "Unsolicited DM or Group Add",
-        description: "It starts with a friendly message on Instagram or Telegram. 'I can help you invest' or 'Join my exclusive signal group'.",
-        reality: "REALITY: Scammers bulk-message thousands. You were not 'chosen'. It's a bot or a script."
+        title: "1. Initial Contact",
+        subtitle: "Unsolicited Messages on Social Platforms",
+        description: "People are approached via unsolicited messages on social platforms — Instagram, WhatsApp, and Telegram. The outreach appears personal but is part of a mass-targeting strategy.",
+        reality: "REALITY: Scammers bulk-message thousands of users. You were not personally selected — it's a calculated numbers game using bots and scripts."
     },
     {
         icon: DollarSign,
-        title: "2. The Bait",
-        subtitle: "Guaranteed Huge ROI",
-        description: "They promise 10x, 20x, or 50x returns in 24-48 hours. They might show screenshots of 'proof' (fake bank transfers).",
-        reality: "REALITY: No legal investment guarantees these returns. The screenshots are Photoshop edits."
+        title: "2. The Promise",
+        subtitle: "High-Return Investment Opportunities",
+        description: "Offers of high-return investment opportunities or exclusive venture deals are made. Screenshots of 'profits' and 'successful trades' are shown as proof.",
+        reality: "REALITY: No legitimate investment guarantees outsized returns. The screenshots are fabricated. This pattern matches common tactics used by online investment frauds."
     },
     {
         icon: LockKeyhole,
-        title: "3. The Sting",
-        subtitle: "Unexpected 'Fees' & 'Taxes'",
-        description: "You send the money. But before you can withdraw profits, you must pay a 'Withdrawal Fee', 'Tax', or 'Gas Fee'.",
-        reality: "REALITY: There are no profits. They are milking you for more money before they disappear."
+        title: "3. The Trap",
+        subtitle: "Upfront Fees & Hidden Charges",
+        description: "Requests for upfront fees labeled as 'liquidity proof,' 'tax clearance,' or 'legal retainers.' Each payment is followed by another demand before any 'withdrawal' can occur.",
+        reality: "REALITY: There are no profits to release. Each fee is designed to extract more money before the scammer disappears. This emphasizes the importance of caution before sending money or sharing personal details."
     },
     {
         icon: Ban,
-        title: "4. The Ghost",
-        subtitle: "Blocked & Deleted",
-        description: "Once you stop paying or ask too many questions, the chat vanishes. You are blocked. The money is gone.",
-        reality: "REALITY: This is the end game. They move on to the next victim instantly."
+        title: "4. After Payment",
+        subtitle: "Communication Ceases",
+        description: "After payment is made, communication ceases and victims are often blocked. Accounts may be deactivated or deleted entirely. The money is gone.",
+        reality: "REALITY: This is the end game. The scammer moves on to the next target instantly, leaving victims with no recourse and no way to recover funds."
     }
 ];
 
@@ -45,11 +45,14 @@ export function ReportPatterns() {
         <section className="py-24 bg-slate-50 dark:bg-slate-900 border-y border-slate-200 dark:border-slate-800">
             <Container>
                 <div className="text-center mb-16 max-w-3xl mx-auto">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs font-bold uppercase tracking-widest rounded-full mb-4 border border-red-200 dark:border-red-800">
+                        <span>Reported Scam Pattern</span>
+                    </div>
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-red-600 uppercase tracking-tight">
-                        THE SCAM ANATOMY
+                        HOW THE REPORTED SCAM OPERATES
                     </h2>
                     <p className="text-xl text-slate-700 dark:text-slate-300 font-medium">
-                        Does this sound familiar? This is the <span className="text-red-600 font-bold underline decoration-wavy">exact process</span> victims report going through with Jase Brand.
+                        According to the alert, this is the <span className="text-red-600 font-bold underline decoration-wavy">exact process</span> reported by victims of Jase Brand. Does this sound familiar?
                     </p>
                 </div>
 
@@ -116,7 +119,7 @@ export function ReportPatterns() {
 
                                     <div className="prose dark:prose-invert">
                                         <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
-                                            "{steps[activeStep].description}"
+                                            &ldquo;{steps[activeStep].description}&rdquo;
                                         </p>
 
                                         <div className="bg-red-50 dark:bg-red-950/50 border-l-4 border-red-600 p-6 rounded-r-lg">

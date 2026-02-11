@@ -11,10 +11,10 @@ export function Footer() {
                             <span className="text-red-600">⚠️</span> Consumer Warning
                         </h3>
                         <p className="text-sm leading-relaxed max-w-md text-slate-500">
-                            This website serves as a public awareness initiative regarding alleged fraudulent activities linked to <span className="text-white font-bold">Jase Brand / Jason Perez</span>.
+                            This is not a promotional site — it is a <span className="text-white font-bold">community-driven alert platform</span> designed to help people identify potential scams involving <span className="text-white font-bold">Jase Brand / Jason Perez</span> and protect themselves from financial loss.
                         </p>
                         <p className="text-xs border-l-2 border-red-900 pl-4 italic text-slate-600">
-                            "All claims are based on victim reports. This site is not a legal entity but a community protection effort."
+                            "All claims are based on consumer reports and active fraud warnings. This is a community protection effort, not a legal entity. 2026 Update."
                         </p>
                     </div>
 
@@ -80,8 +80,8 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-600 uppercase tracking-wider">
-                    <p>&copy; {new Date().getFullYear()} Jase Brand Awareness.</p>
-                    <p className="mt-2 md:mt-0">Public Safety Initiative • Non-Profit</p>
+                    <p>&copy; {new Date().getFullYear()} Jase Brand Scam Alert.</p>
+                    <p className="mt-2 md:mt-0">Community-Driven Alert Platform • 2026 Update</p>
                 </div>
             </Container>
         </footer>

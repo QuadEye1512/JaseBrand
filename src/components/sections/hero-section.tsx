@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { AlertTriangle, Siren } from "lucide-react";
+import { AlertTriangle, Siren, ShieldAlert, Info } from "lucide-react";
 
 export function HeroSection() {
     return (
@@ -30,25 +30,27 @@ export function HeroSection() {
                             <span>Active Fraud Investigation</span>
                         </div>
 
-                        <h1 className="text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-none">
-                            <span className="block text-white">WARNING:</span>
+                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-4 leading-none">
                             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600 relative">
-                                JASE BRAND
-                                <span className="absolute -inset-1 text-red-600 opacity-20 blur-sm animate-glitch-1" aria-hidden="true">JASE BRAND</span>
+                                Jase Brand Scam Alert
+                                <span className="absolute -inset-1 text-red-600 opacity-20 blur-sm animate-glitch-1" aria-hidden="true">Jase Brand Scam Alert</span>
                             </span>
-                            <span className="block text-xl md:text-3xl font-bold tracking-widest text-slate-400 mt-2 uppercase">
-                                (AKA Jason Perez)
+                            <span className="block text-xl md:text-2xl font-bold tracking-wide text-slate-400 mt-3">
+                                What You Need to Know (2026 Update)
                             </span>
                         </h1>
 
+                        {/* Community Platform Notice */}
+                        <div className="flex items-start gap-3 bg-slate-800/60 border border-slate-700 rounded-lg px-4 py-3 mb-6">
+                            <Info className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                            <p className="text-sm text-slate-300 leading-relaxed">
+                                <span className="text-amber-400 font-bold">⚠️ This is not a promotional site</span> — it is a community-driven alert platform designed to help people identify potential scams and protect themselves from financial loss.
+                            </p>
+                        </div>
+
                         <div className="space-y-6 mb-8">
-                            <div className="inline-block transform -skew-x-12 bg-red-600 px-4 py-1">
-                                <h2 className="text-2xl md:text-4xl font-black text-white uppercase transform skew-x-12">
-                                    INVESTMENT SCAM
-                                </h2>
-                            </div>
                             <p className="text-lg md:text-xl text-slate-300 font-medium max-w-xl leading-relaxed border-l-4 border-red-600 pl-6">
-                                Reports confirm a pattern of <span className="text-red-400 font-bold">STOLEN FUNDS</span>, <span className="text-red-400 font-bold">FAKE PROMISES</span>, and <span className="text-red-400 font-bold">GHOSTED INVESTORS</span>.
+                                Jase Brand has gained attention online due to <span className="text-red-400 font-bold">consumer reports</span> and <span className="text-red-400 font-bold">active fraud warnings</span> associated with alleged investment schemes and fundraising activity.
                             </p>
                         </div>
 
@@ -91,15 +93,30 @@ export function HeroSection() {
 
                                 {/* Glitch Overlay on Hover */}
                                 <div className="absolute inset-0 bg-red-500/0 group-hover:bg-red-500/10 mix-blend-overlay transition-colors duration-300" />
-
-                                {/* <div className="absolute bottom-0 w-full bg-slate-950/90 text-white p-4 text-center border-t border-red-600/30">
-                                    <p className="text-sm font-mono text-red-500 mb-1">STATUS: ACTIVE</p>
-                                    <p className="text-xs text-slate-400 uppercase tracking-wider">Last Reported: Global / Online</p>
-                                </div> */}
                             </div>
                         </div>
                     </motion.div>
                 </div>
+
+                {/* Understanding the Jase Brand Scam Alerts - below the hero grid */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.4 }}
+                    className="mt-16 max-w-4xl mx-auto"
+                >
+                    <div className="bg-slate-900/80 border border-slate-800 rounded-xl p-8 md:p-10 backdrop-blur-sm">
+                        <div className="flex items-center gap-3 mb-6">
+                            <ShieldAlert className="w-7 h-7 text-red-500" />
+                            <h2 className="text-2xl md:text-3xl font-black text-white uppercase tracking-tight">
+                                Understanding the Jase Brand Scam Alerts
+                            </h2>
+                        </div>
+                        <p className="text-base md:text-lg text-slate-300 leading-relaxed">
+                            The Jase Brand warning page highlights an <span className="text-red-400 font-bold">active fraud investigation</span> involving reported losses of <span className="text-red-400 font-bold">$500,000+</span> tied to individuals operating under the name <span className="text-white font-bold">Jase Brand</span> (also referenced by an alias such as <span className="text-white font-bold">Jason Perez</span>). The page warns visitors <span className="text-red-400 font-bold">not to transfer funds</span> and encourages anyone who may have been contacted or scammed to submit reports.
+                        </p>
+                    </div>
+                </motion.div>
             </Container>
         </section>
     );
