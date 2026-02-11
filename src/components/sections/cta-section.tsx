@@ -42,7 +42,7 @@ const actionSteps = [
 
 export function CtaSection() {
     return (
-        <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <section id="what-to-do" className="py-20 bg-slate-900 text-white relative overflow-hidden">
             {/* Background accent */}
             <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900 to-red-950/20" />
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f1a_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f1a_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_60%,transparent_100%)]" />

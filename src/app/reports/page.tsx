@@ -4,8 +4,12 @@ import { EducationalResources } from "@/components/sections/educational-resource
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Victim Reports & Evidence | Jase Brand Fraud",
-    description: "Browse verified reports of investment scams linked to Jase Brand and Jason Perez. Read victim stories and identifying red flags.",
+    title: "Jase Brand Victim Reports & Evidence | Jason Perez Fraud Cases (2026)",
+    description: "Browse verified consumer reports and evidence of investment scams linked to Jase Brand (aka Jason Perez). Read victim stories, identify red flags like 'liquidity proof' and 'tax clearance' fees, and learn how to protect yourself from advance-fee fraud.",
+    keywords: ["Jase Brand reports", "Jase Brand evidence", "Jason Perez victim reports", "Jase Brand fraud cases", "investment scam reports", "Jase Brand victim stories"],
+    alternates: {
+        canonical: "https://jasebrand-awareness.com/reports",
+    },
 };
 
 export default function ReportsPage() {

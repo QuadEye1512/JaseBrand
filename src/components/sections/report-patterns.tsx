@@ -42,7 +42,7 @@ export function ReportPatterns() {
     const [activeStep, setActiveStep] = useState(0);
 
     return (
-        <section className="py-24 bg-slate-50 dark:bg-slate-900 border-y border-slate-200 dark:border-slate-800">
+        <section id="how-the-scam-operates" className="py-24 bg-slate-50 dark:bg-slate-900 border-y border-slate-200 dark:border-slate-800">
             <Container>
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs font-bold uppercase tracking-widest rounded-full mb-4 border border-red-200 dark:border-red-800">

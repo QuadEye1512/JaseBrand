@@ -41,7 +41,7 @@ const searchReasons = [
 
 export function WhySearch() {
     return (
-        <section className="py-20 bg-white dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800 relative overflow-hidden">
+        <section id="why-search-jase-brand" className="py-20 bg-white dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800 relative overflow-hidden">
             {/* Subtle background pattern */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.05),rgba(255,255,255,0))]" />
 
