@@ -44,7 +44,7 @@ export function HeroSection() {
                         <div className="flex items-start gap-3 bg-slate-800/60 border border-slate-700 rounded-lg px-4 py-3 mb-6">
                             <Info className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                             <p className="text-sm text-slate-300 leading-relaxed">
-                                <span className="text-amber-400 font-bold">⚠️ This is not a promotional site</span> — it is a community-driven alert platform designed to help people identify potential scams and protect themselves from financial loss.
+                                <span className="text-amber-400 font-bold">⚠️ This is not a promotional site</span>, it is a community-driven alert platform designed to help people identify potential scams and protect themselves from financial loss.
                             </p>
                         </div>
 

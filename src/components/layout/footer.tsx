@@ -11,7 +11,7 @@ export function Footer() {
                             <span className="text-red-600">⚠️</span> Consumer Warning
                         </h3>
                         <p className="text-sm leading-relaxed max-w-md text-slate-500">
-                            This is not a promotional site — it is a <span className="text-white font-bold">community-driven alert platform</span> designed to help people identify potential scams involving <span className="text-white font-bold">Jase Brand / Jason Perez</span> and protect themselves from financial loss.
+                            This is not a promotional site, it is a <span className="text-white font-bold">community-driven alert platform</span> designed to help people identify potential scams involving <span className="text-white font-bold">Jase Brand / Jason Perez</span> and protect themselves from financial loss.
                         </p>
                         <p className="text-xs border-l-2 border-red-900 pl-4 italic text-slate-600">
                             "All claims are based on consumer reports and active fraud warnings. This is a community protection effort, not a legal entity. 2026 Update."

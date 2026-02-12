@@ -12,8 +12,8 @@ const steps = [
         icon: MessageCircle,
         title: "1. Initial Contact",
         subtitle: "Unsolicited Messages on Social Platforms",
-        description: "People are approached via unsolicited messages on social platforms — Instagram, WhatsApp, and Telegram. The outreach appears personal but is part of a mass-targeting strategy.",
-        reality: "REALITY: Scammers bulk-message thousands of users. You were not personally selected — it's a calculated numbers game using bots and scripts."
+        description: "People are approached via unsolicited messages on social platforms like Instagram, WhatsApp, and Telegram. The outreach appears personal but is part of a mass-targeting strategy.",
+        reality: "REALITY: Scammers bulk-message thousands of users. You were not personally selected, it's a calculated numbers game using bots and scripts."
     },
     {
         icon: DollarSign,

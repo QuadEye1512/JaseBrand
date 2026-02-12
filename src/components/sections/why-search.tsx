@@ -99,7 +99,7 @@ export function WhySearch() {
                         })}
                     </div>
 
-                    {/* SEO Note */}
+                    {/* SEO Note
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
@@ -110,7 +110,7 @@ export function WhySearch() {
                         <p className="text-sm text-slate-500 dark:text-slate-500 italic max-w-xl mx-auto">
                             This SEO content helps connect those search intents with accurate and informative guidance — ensuring that people looking for answers find trustworthy, community-driven information.
                         </p>
-                    </motion.div>
+                    </motion.div> */}
                 </div>
             </Container>
         </section>
